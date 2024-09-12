@@ -1,25 +1,42 @@
-html{
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/1341239.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-    margin: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-html.bio{
+html {
   height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/arrow.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/1341239.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   overflow: hidden;
   margin: auto;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Press Start 2P', cursive;
+}
+
+html.bio {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/arrow.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  font-family: 'Press Start 2P', cursive;
+}
+
+html.experience {
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/sukuna1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+  font-family: 'Press Start 2P', cursive;
 }
 
 .nav-items {
@@ -49,46 +66,200 @@ html.bio{
   color: white;
 }
 
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
+.hero-text button {
+  background-color: #3a4569;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Press Start 2P', cursive;
+}
 
-  .page-body {
-    padding: 70px 0;
-    margin: auto;
-    text-align: center;
-    color: white;
-    
-  }
-  .linkage {
-    font-family: 'Roboto', sans-serif;
-    margin-top: 40px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-  }
+.hero-text button:hover {
+  background-color: #a0a0a0; /* Light grey */
+}
 
-  .linkage .link-item {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    font-weight: 400;
-    color: #ced5dc;
-    padding: 50px;
-  }
+.page-body {
+  padding: 70px 0;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.linkage {
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
 
-  .linkage .icon {
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    background-color: #fcfdfd;
-  }
+.linkage .link-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 20px;
+  margin: 0 10px;
+}
+
+.pixel-button {
+  background-color: #3a4569;
+  border: 4px solid #ffffff;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.pixel-button:hover {
+  background-color: #a0a0a0; /* Light grey */
+  transform: scale(1.05);
+}
+
+.pixel-icon {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 10px;
+  image-rendering: pixelated;
+}
+
+.pixel-icon.instagram {
+  background: url('path/to/instagram-pixel-icon.png') no-repeat center center;
+  background-size: contain;
+}
+
+.pixel-icon.twitter {
+  background: url('path/to/twitter-pixel-icon.png') no-repeat center center;
+  background-size: contain;
+}
+
+.linkage .label {
+  font-size: 12px;
+}
+
+.portfolio-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-container h1 {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.project {
+  background-color: #3a4569;
+  border: 4px solid #ffffff;
+  padding: 20px;
+  margin: 15px;
+  width: 300px;
+  transition: all 0.3s ease;
+  image-rendering: pixelated;
+}
+
+.project:hover {
+  background-color: #a0a0a0; /* Light grey */
+  transform: scale(1.05);
+}
+
+.project h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.project p {
+  font-size: 14px;
+}
+
+/* Ensure the page is scrollable if needed */
+html,
+body {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.experience-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  color: white;
+}
+
+.experience-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.experience-timeline {
+  position: relative;
+  padding-left: 50px;
+}
+
+.experience-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #ffffff;
+}
+
+.experience-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.experience-date {
+  position: absolute;
+  left: -80px;
+  top: 0;
+  background: #3a4569;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: 2px solid #ffffff;
+}
+
+.experience-content {
+  background: #3a4569;
+  padding: 20px;
+  border: 4px solid #ffffff;
+  margin-left: 20px;
+  transition: all 0.3s ease;
+}
+
+.experience-content:hover {
+  background-color: #a0a0a0;
+  transform: scale(1.02);
+}
+
+.experience-content h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.experience-content p {
+  font-size: 14px;
+}
