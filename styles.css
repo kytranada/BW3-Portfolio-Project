@@ -3,7 +3,7 @@
 html {
   height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/1341239.jpeg');
+    url('1341239.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,7 +16,7 @@ html {
 html.bio {
   height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/arrow.png');
+    url('arrow.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +29,7 @@ html.bio {
 html.experience {
   height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/sukuna1.jpg');
+    url('sukuna1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
