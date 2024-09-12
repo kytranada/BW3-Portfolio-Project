@@ -91,7 +91,7 @@ html.experience {
 }
 
 .hero-text button:hover {
-  background-color: #a0a0a0; /* Light grey */
+  background-color: #a0a0a0; 
 }
 
 .page-body {
@@ -128,27 +128,10 @@ html.experience {
 }
 
 .pixel-button:hover {
-  background-color: #a0a0a0; /* Light grey */
+  background-color: #a0a0a0; 
   transform: scale(1.05);
 }
-
-.pixel-icon {
-  width: 32px;
-  height: 32px;
-  margin-bottom: 10px;
-  image-rendering: pixelated;
-}
-
-.pixel-icon.instagram {
-  background: url('path/to/instagram-pixel-icon.png') no-repeat center center;
-  background-size: contain;
-}
-
-.pixel-icon.twitter {
-  background: url('path/to/twitter-pixel-icon.png') no-repeat center center;
-  background-size: contain;
-}
-
+ 
 .linkage .label {
   font-size: 12px;
 }
@@ -180,7 +163,7 @@ html.experience {
 }
 
 .project:hover {
-  background-color: #a0a0a0; /* Light grey */
+  background-color: #a0a0a0; 
   transform: scale(1.05);
 }
 
@@ -191,13 +174,6 @@ html.experience {
 
 .project p {
   font-size: 14px;
-}
-
-/* Ensure the page is scrollable if needed */
-html,
-body {
-  height: 100%;
-  overflow-y: auto;
 }
 
 .experience-container {
